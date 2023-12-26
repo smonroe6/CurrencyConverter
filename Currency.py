@@ -18,10 +18,11 @@ def convert_currency(base):
 
 while True:
     base = input("Enter the base currency (q for quit): ").upper()
-    quantity = float(input("Enter amount to convert: "))
 
     if base == "Q":
         break
+
+    quantity = float(input("Enter amount to convert: "))
 
     data = convert_currency(base)
     if not data:
