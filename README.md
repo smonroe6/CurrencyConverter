@@ -1,4 +1,4 @@
 # CurrencyConverter
-Based on TechWithTim 
-Go to https://freecurrencyapi.com/ and sign up for an free account 
-This is where you will get your API key, which youn will then insert in the API_KEY variable 
+Based on TechWithTim  
+Go to https://freecurrencyapi.com/ and sign up for an free account  
+This is where you will get your API key, which youn will then insert in the API_KEY variable  
