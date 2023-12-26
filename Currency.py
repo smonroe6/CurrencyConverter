@@ -17,7 +17,8 @@ def convert_currency(base):
         return None
 
 while True:
-    base = input("Enter the base currency (q for quit)").upper()
+    base = input("Enter the base currency (q for quit): ").upper()
+    quantity = float(input("Enter amount to convert: "))
 
     if base == "Q":
         break
@@ -28,4 +29,4 @@ while True:
 
     del data[base]
     for ticker, value in data.items():
-        print(f"{ticker}: {value}")
+        print(f"{ticker}: {float(value)*quantity}")
